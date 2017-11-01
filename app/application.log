@@ -1,0 +1,1010 @@
+[2017-10-30 17:35:39.641] [DEBUG] app - 2
+[2017-10-30 17:36:05.341] [DEBUG] app - 3
+[2017-10-30 17:36:05.351] [ERROR] app - server error Error: 123
+    at app.use (e:\github\LogSocket.io-Demo\app\app.js:12:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+[2017-10-30 17:45:36.080] [ERROR] app - server error { Error: ENOENT: no such file or directory, stat 'e:\github\LogSocket.io-Demo\app\views\index.html'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'e:\\github\\LogSocket.io-Demo\\app\\views\\index.html' }
+[2017-10-30 17:46:45.567] [ERROR] app - server error { ReferenceError: e:\github\LogSocket.io-Demo\app\views\index.ejs:4
+    2| <html>
+    3|   <head>
+ >> 4|     <title><%= title %></title>
+    5|     <link rel='stylesheet' href='/stylesheets/style.css' />
+    6|   </head>
+    7|   <body>
+
+title is not defined
+    at eval (eval at compile (e:\github\LogSocket.io-Demo\app\node_modules\ejs\lib\ejs.js:549:12), <anonymous>:11:26)
+    at returnedFn (e:\github\LogSocket.io-Demo\app\node_modules\ejs\lib\ejs.js:580:17)
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:503:16
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (e:\github\LogSocket.io-Demo\app\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (e:\github\LogSocket.io-Demo\app\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (e:\github\LogSocket.io-Demo\app\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.ejs.render (e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:499:10)
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:165:27
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:99:5
+    at tryToString (fs.js:449:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:436:12)
+  path: 'e:\\github\\LogSocket.io-Demo\\app\\views\\index.ejs' }
+[2017-10-30 17:46:46.837] [ERROR] app - server error { ReferenceError: e:\github\LogSocket.io-Demo\app\views\index.ejs:4
+    2| <html>
+    3|   <head>
+ >> 4|     <title><%= title %></title>
+    5|     <link rel='stylesheet' href='/stylesheets/style.css' />
+    6|   </head>
+    7|   <body>
+
+title is not defined
+    at eval (eval at compile (e:\github\LogSocket.io-Demo\app\node_modules\ejs\lib\ejs.js:549:12), <anonymous>:11:26)
+    at returnedFn (e:\github\LogSocket.io-Demo\app\node_modules\ejs\lib\ejs.js:580:17)
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:503:16
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (e:\github\LogSocket.io-Demo\app\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (e:\github\LogSocket.io-Demo\app\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (e:\github\LogSocket.io-Demo\app\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.ejs.render (e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:499:10)
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:165:27
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:99:5
+    at tryToString (fs.js:449:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:436:12)
+  path: 'e:\\github\\LogSocket.io-Demo\\app\\views\\index.ejs' }
+[2017-10-30 17:46:47.599] [ERROR] app - server error { ReferenceError: e:\github\LogSocket.io-Demo\app\views\index.ejs:4
+    2| <html>
+    3|   <head>
+ >> 4|     <title><%= title %></title>
+    5|     <link rel='stylesheet' href='/stylesheets/style.css' />
+    6|   </head>
+    7|   <body>
+
+title is not defined
+    at eval (eval at compile (e:\github\LogSocket.io-Demo\app\node_modules\ejs\lib\ejs.js:549:12), <anonymous>:11:26)
+    at returnedFn (e:\github\LogSocket.io-Demo\app\node_modules\ejs\lib\ejs.js:580:17)
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:503:16
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (e:\github\LogSocket.io-Demo\app\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (e:\github\LogSocket.io-Demo\app\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (e:\github\LogSocket.io-Demo\app\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.ejs.render (e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:499:10)
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:165:27
+    at e:\github\LogSocket.io-Demo\app\node_modules\consolidate\lib\consolidate.js:99:5
+    at tryToString (fs.js:449:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:436:12)
+  path: 'e:\\github\\LogSocket.io-Demo\\app\\views\\index.ejs' }
+[2017-10-30 17:48:27.860] [DEBUG] app - 20
+[2017-10-30 17:48:27.899] [DEBUG] app - 8
+[2017-10-30 17:56:58.037] [DEBUG] app - 22
+[2017-10-30 17:56:58.078] [DEBUG] app - 12
+[2017-10-30 17:56:59.272] [DEBUG] app - 2
+[2017-10-30 17:56:59.299] [DEBUG] app - 4
+[2017-10-30 17:57:03.288] [DEBUG] app - 3
+[2017-10-30 17:57:03.488] [DEBUG] app - 21
+[2017-10-30 17:58:03.541] [DEBUG] app - 7
+[2017-10-30 17:58:04.875] [DEBUG] app - 1
+[2017-10-30 17:58:30.499] [DEBUG] app - 6
+[2017-10-30 17:58:31.143] [DEBUG] app - 1
+[2017-10-30 17:58:31.604] [DEBUG] app - 0
+[2017-10-30 17:59:42.453] [DEBUG] app - 7
+[2017-10-30 17:59:43.360] [DEBUG] app - 0
+[2017-10-30 17:59:44.684] [DEBUG] app - 0
+[2017-10-30 18:04:17.135] [INFO] app - getSockio
+[2017-10-30 18:04:17.305] [DEBUG] app - 173
+[2017-10-30 18:05:13.531] [INFO] app - getSockio
+[2017-10-30 18:05:13.662] [DEBUG] app - 132
+[2017-10-30 18:05:15.478] [INFO] app - getSockio
+[2017-10-30 18:05:15.500] [DEBUG] app - 22
+[2017-10-30 18:05:16.780] [INFO] app - getSockio
+[2017-10-30 18:05:16.783] [DEBUG] app - 4
+[2017-10-30 18:05:17.662] [INFO] app - getSockio
+[2017-10-30 18:05:17.664] [DEBUG] app - 2
+[2017-10-30 18:06:26.894] [INFO] app - getSockio
+[2017-10-30 18:06:26.907] [DEBUG] app - 16
+[2017-10-30 18:06:27.569] [INFO] app - getSockio
+[2017-10-30 18:06:27.570] [DEBUG] app - 2
+[2017-10-30 18:06:28.288] [INFO] app - getSockio
+[2017-10-30 18:06:28.290] [DEBUG] app - 2
+[2017-10-30 18:07:06.067] [INFO] app - getSockio
+[2017-10-30 18:07:06.084] [DEBUG] app - 20
+[2017-10-30 18:07:07.201] [INFO] app - getSockio
+[2017-10-30 18:07:07.208] [DEBUG] app - 8
+[2017-10-30 18:11:18.061] [DEBUG] app - 5
+[2017-10-30 18:11:18.847] [DEBUG] app - 1
+[2017-10-30 18:11:20.741] [DEBUG] app - 0
+[2017-10-30 18:11:30.745] [DEBUG] app - 5
+[2017-10-30 18:12:26.974] [DEBUG] app - 12
+[2017-10-30 18:12:27.920] [DEBUG] app - 0
+[2017-10-30 18:12:39.952] [DEBUG] app - 4
+[2017-10-30 18:12:40.671] [DEBUG] app - 1
+[2017-10-30 18:12:41.718] [DEBUG] app - 0
+[2017-11-01 15:21:37.290] [INFO] socketIO - connection
+[2017-11-01 15:21:55.338] [INFO] socketIO - connection
+[2017-11-01 15:22:03.278] [INFO] socketIO - connection
+[2017-11-01 15:22:03.306] [DEBUG] socketIO - Socket {
+  nsp: 
+   Namespace {
+     name: '/',
+     server: 
+      Server {
+        nsps: [Object],
+        _path: '/socket.io',
+        _serveClient: true,
+        parser: [Object],
+        encoder: Encoder {},
+        _adapter: [Function: Adapter],
+        _origins: '*:*',
+        sockets: [Circular],
+        eio: [Object],
+        httpServer: [Object],
+        engine: [Object] },
+     sockets: { Ocb_S4ddwxS9XNaEAAAA: [Circular] },
+     connected: { Ocb_S4ddwxS9XNaEAAAA: [Circular] },
+     fns: [],
+     ids: 0,
+     rooms: [],
+     flags: {},
+     adapter: 
+      Adapter {
+        nsp: [Circular],
+        rooms: [Object],
+        sids: [Object],
+        encoder: Encoder {} },
+     _events: { connection: [Function] },
+     _eventsCount: 1 },
+  server: 
+   Server {
+     nsps: { '/': [Object] },
+     _path: '/socket.io',
+     _serveClient: true,
+     parser: 
+      { protocol: 4,
+        types: [Object],
+        CONNECT: 0,
+        DISCONNECT: 1,
+        EVENT: 2,
+        ACK: 3,
+        ERROR: 4,
+        BINARY_EVENT: 5,
+        BINARY_ACK: 6,
+        Encoder: [Function: Encoder],
+        Decoder: [Function: Decoder] },
+     encoder: Encoder {},
+     _adapter: [Function: Adapter],
+     _origins: '*:*',
+     sockets: 
+      Namespace {
+        name: '/',
+        server: [Circular],
+        sockets: [Object],
+        connected: [Object],
+        fns: [],
+        ids: 0,
+        rooms: [],
+        flags: {},
+        adapter: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     eio: 
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'uws',
+        pingTimeout: 60000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     httpServer: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '6::::3000' },
+     engine: 
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'uws',
+        pingTimeout: 60000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 } },
+  adapter: 
+   Adapter {
+     nsp: 
+      Namespace {
+        name: '/',
+        server: [Object],
+        sockets: [Object],
+        connected: [Object],
+        fns: [],
+        ids: 0,
+        rooms: [],
+        flags: {},
+        adapter: [Circular],
+        _events: [Object],
+        _eventsCount: 1 },
+     rooms: { Ocb_S4ddwxS9XNaEAAAA: [Object] },
+     sids: { Ocb_S4ddwxS9XNaEAAAA: [Object] },
+     encoder: Encoder {} },
+  id: 'Ocb_S4ddwxS9XNaEAAAA',
+  client: 
+   Client {
+     server: 
+      Server {
+        nsps: [Object],
+        _path: '/socket.io',
+        _serveClient: true,
+        parser: [Object],
+        encoder: Encoder {},
+        _adapter: [Function: Adapter],
+        _origins: '*:*',
+        sockets: [Object],
+        eio: [Object],
+        httpServer: [Object],
+        engine: [Object] },
+     conn: 
+      Socket {
+        id: 'Ocb_S4ddwxS9XNaEAAAA',
+        server: [Object],
+        upgrading: false,
+        upgraded: false,
+        readyState: 'open',
+        writeBuffer: [],
+        packetsFn: [],
+        sentCallbackFn: [],
+        cleanupFn: [Object],
+        request: [Object],
+        remoteAddress: '::1',
+        checkIntervalTimer: null,
+        upgradeTimeoutTimer: null,
+        pingTimeoutTimer: [Object],
+        transport: [Object],
+        _events: [Object],
+        _eventsCount: 3 },
+     encoder: Encoder {},
+     decoder: Decoder { reconstructor: null, _callbacks: [Object] },
+     id: 'Ocb_S4ddwxS9XNaEAAAA',
+     request: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '/socket.io/?EIO=3&transport=polling&t=LzsTLfk',
+        method: 'GET',
+        statusCode: null,
+        statusMessage: null,
+        client: [Object],
+        _consuming: false,
+        _dumped: true,
+        _query: [Object],
+        res: [Object],
+        cleanup: [Function: cleanup] },
+     onclose: [Function: bound ],
+     ondata: [Function: bound ],
+     onerror: [Function: bound ],
+     ondecoded: [Function: bound ],
+     sockets: { Ocb_S4ddwxS9XNaEAAAA: [Circular] },
+     nsps: { '/': [Circular] },
+     connectBuffer: [] },
+  conn: 
+   Socket {
+     id: 'Ocb_S4ddwxS9XNaEAAAA',
+     server: 
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'uws',
+        pingTimeout: 60000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     upgrading: false,
+     upgraded: false,
+     readyState: 'open',
+     writeBuffer: [],
+     packetsFn: [],
+     sentCallbackFn: [],
+     cleanupFn: [ [Function], [Function] ],
+     request: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '/socket.io/?EIO=3&transport=polling&t=LzsTLfk',
+        method: 'GET',
+        statusCode: null,
+        statusMessage: null,
+        client: [Object],
+        _consuming: false,
+        _dumped: true,
+        _query: [Object],
+        res: [Object],
+        cleanup: [Function: cleanup] },
+     remoteAddress: '::1',
+     checkIntervalTimer: null,
+     upgradeTimeoutTimer: null,
+     pingTimeoutTimer: 
+      Timeout {
+        _called: false,
+        _idleTimeout: 85000,
+        _idlePrev: [Object],
+        _idleNext: [Object],
+        _idleStart: 695,
+        _onTimeout: [Function],
+        _timerArgs: undefined,
+        _repeat: null },
+     transport: 
+      XHR {
+        readyState: 'open',
+        discarded: false,
+        closeTimeout: 30000,
+        maxHttpBufferSize: 100000000,
+        httpCompression: [Object],
+        supportsBinary: true,
+        _events: [Object],
+        _eventsCount: 5,
+        sid: 'Ocb_S4ddwxS9XNaEAAAA',
+        req: null,
+        res: null,
+        writable: false },
+     _events: 
+      { close: [Object],
+        data: [Function: bound ],
+        error: [Function: bound ] },
+     _eventsCount: 3 },
+  rooms: {},
+  acks: {},
+  connected: true,
+  disconnected: false,
+  handshake: 
+   { headers: 
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        accept: '*/*',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+        referer: 'http://localhost:3000/',
+        'accept-encoding': 'gzip, deflate, sdch',
+        'accept-language': 'zh-CN,zh;q=0.8',
+        cookie: 'io=74NxruXdbBavVZefAAAA' },
+     time: 'Wed Nov 01 2017 15:22:03 GMT+0800 (中国标准时间)',
+     address: '::1',
+     xdomain: false,
+     secure: false,
+     issued: 1509520923273,
+     url: '/socket.io/?EIO=3&transport=polling&t=LzsTLfk',
+     query: { EIO: '3', transport: 'polling', t: 'LzsTLfk' } },
+  fns: [],
+  flags: {},
+  _rooms: [] }
+[2017-11-01 15:26:44.294] [INFO] socketIO - mcldddWB1JG8EbzwAAAA is connection
+[2017-11-01 15:26:44.298] [DEBUG] socketIO - Socket {
+  nsp: 
+   Namespace {
+     name: '/',
+     server: 
+      Server {
+        nsps: [Object],
+        _path: '/socket.io',
+        _serveClient: true,
+        parser: [Object],
+        encoder: Encoder {},
+        _adapter: [Function: Adapter],
+        _origins: '*:*',
+        sockets: [Circular],
+        eio: [Object],
+        httpServer: [Object],
+        engine: [Object] },
+     sockets: { mcldddWB1JG8EbzwAAAA: [Circular] },
+     connected: { mcldddWB1JG8EbzwAAAA: [Circular] },
+     fns: [],
+     ids: 0,
+     rooms: [],
+     flags: {},
+     adapter: 
+      Adapter {
+        nsp: [Circular],
+        rooms: [Object],
+        sids: [Object],
+        encoder: Encoder {} },
+     _events: { connection: [Function] },
+     _eventsCount: 1 },
+  server: 
+   Server {
+     nsps: { '/': [Object] },
+     _path: '/socket.io',
+     _serveClient: true,
+     parser: 
+      { protocol: 4,
+        types: [Object],
+        CONNECT: 0,
+        DISCONNECT: 1,
+        EVENT: 2,
+        ACK: 3,
+        ERROR: 4,
+        BINARY_EVENT: 5,
+        BINARY_ACK: 6,
+        Encoder: [Function: Encoder],
+        Decoder: [Function: Decoder] },
+     encoder: Encoder {},
+     _adapter: [Function: Adapter],
+     _origins: '*:*',
+     sockets: 
+      Namespace {
+        name: '/',
+        server: [Circular],
+        sockets: [Object],
+        connected: [Object],
+        fns: [],
+        ids: 0,
+        rooms: [],
+        flags: {},
+        adapter: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     eio: 
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'uws',
+        pingTimeout: 60000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     httpServer: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '6::::3000' },
+     engine: 
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'uws',
+        pingTimeout: 60000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 } },
+  adapter: 
+   Adapter {
+     nsp: 
+      Namespace {
+        name: '/',
+        server: [Object],
+        sockets: [Object],
+        connected: [Object],
+        fns: [],
+        ids: 0,
+        rooms: [],
+        flags: {},
+        adapter: [Circular],
+        _events: [Object],
+        _eventsCount: 1 },
+     rooms: { mcldddWB1JG8EbzwAAAA: [Object] },
+     sids: { mcldddWB1JG8EbzwAAAA: [Object] },
+     encoder: Encoder {} },
+  id: 'mcldddWB1JG8EbzwAAAA',
+  client: 
+   Client {
+     server: 
+      Server {
+        nsps: [Object],
+        _path: '/socket.io',
+        _serveClient: true,
+        parser: [Object],
+        encoder: Encoder {},
+        _adapter: [Function: Adapter],
+        _origins: '*:*',
+        sockets: [Object],
+        eio: [Object],
+        httpServer: [Object],
+        engine: [Object] },
+     conn: 
+      Socket {
+        id: 'mcldddWB1JG8EbzwAAAA',
+        server: [Object],
+        upgrading: false,
+        upgraded: false,
+        readyState: 'open',
+        writeBuffer: [],
+        packetsFn: [],
+        sentCallbackFn: [],
+        cleanupFn: [Object],
+        request: [Object],
+        remoteAddress: '::1',
+        checkIntervalTimer: null,
+        upgradeTimeoutTimer: null,
+        pingTimeoutTimer: [Object],
+        transport: [Object],
+        _events: [Object],
+        _eventsCount: 3 },
+     encoder: Encoder {},
+     decoder: Decoder { reconstructor: null, _callbacks: [Object] },
+     id: 'mcldddWB1JG8EbzwAAAA',
+     request: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '/socket.io/?EIO=3&transport=polling&t=LzsUQGd',
+        method: 'GET',
+        statusCode: null,
+        statusMessage: null,
+        client: [Object],
+        _consuming: false,
+        _dumped: true,
+        _query: [Object],
+        res: [Object],
+        cleanup: [Function: cleanup] },
+     onclose: [Function: bound ],
+     ondata: [Function: bound ],
+     onerror: [Function: bound ],
+     ondecoded: [Function: bound ],
+     sockets: { mcldddWB1JG8EbzwAAAA: [Circular] },
+     nsps: { '/': [Circular] },
+     connectBuffer: [] },
+  conn: 
+   Socket {
+     id: 'mcldddWB1JG8EbzwAAAA',
+     server: 
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'uws',
+        pingTimeout: 60000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     upgrading: false,
+     upgraded: false,
+     readyState: 'open',
+     writeBuffer: [],
+     packetsFn: [],
+     sentCallbackFn: [],
+     cleanupFn: [ [Function], [Function] ],
+     request: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '/socket.io/?EIO=3&transport=polling&t=LzsUQGd',
+        method: 'GET',
+        statusCode: null,
+        statusMessage: null,
+        client: [Object],
+        _consuming: false,
+        _dumped: true,
+        _query: [Object],
+        res: [Object],
+        cleanup: [Function: cleanup] },
+     remoteAddress: '::1',
+     checkIntervalTimer: null,
+     upgradeTimeoutTimer: null,
+     pingTimeoutTimer: 
+      Timeout {
+        _called: false,
+        _idleTimeout: 85000,
+        _idlePrev: [Object],
+        _idleNext: [Object],
+        _idleStart: 1642,
+        _onTimeout: [Function],
+        _timerArgs: undefined,
+        _repeat: null },
+     transport: 
+      XHR {
+        readyState: 'open',
+        discarded: false,
+        closeTimeout: 30000,
+        maxHttpBufferSize: 100000000,
+        httpCompression: [Object],
+        supportsBinary: true,
+        _events: [Object],
+        _eventsCount: 5,
+        sid: 'mcldddWB1JG8EbzwAAAA',
+        req: null,
+        res: null,
+        writable: false },
+     _events: 
+      { close: [Object],
+        data: [Function: bound ],
+        error: [Function: bound ] },
+     _eventsCount: 3 },
+  rooms: {},
+  acks: {},
+  connected: true,
+  disconnected: false,
+  handshake: 
+   { headers: 
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        accept: '*/*',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+        referer: 'http://localhost:3000/',
+        'accept-encoding': 'gzip, deflate, sdch',
+        'accept-language': 'zh-CN,zh;q=0.8',
+        cookie: 'io=Ocb_S4ddwxS9XNaEAAAA' },
+     time: 'Wed Nov 01 2017 15:26:44 GMT+0800 (中国标准时间)',
+     address: '::1',
+     xdomain: false,
+     secure: false,
+     issued: 1509521204289,
+     url: '/socket.io/?EIO=3&transport=polling&t=LzsUQGd',
+     query: { EIO: '3', transport: 'polling', t: 'LzsUQGd' } },
+  fns: [],
+  flags: {},
+  _rooms: [] }
+[2017-11-01 15:26:51.294] [INFO] socketIO - ilNDfkis6I_rpJn_AAAA is connection
+[2017-11-01 15:27:08.059] [INFO] socketIO - EeA7XOgnvh5nnq-3AAAA is connection
+[2017-11-01 15:27:14.898] [INFO] socketIO - EeA7XOgnvh5nnq-3AAAA is disconnected
+[2017-11-01 15:27:19.046] [INFO] socketIO - 3r8bzE1TfIj5gyRhAAAB is connection
+[2017-11-01 15:30:04.219] [INFO] socketIO - aETpjxq939MJmO8MAAAA is connection
+[2017-11-01 15:30:43.407] [INFO] socketIO - X9doo1W5HYZZ6IWwAAAA is connection
+[2017-11-01 15:30:43.993] [INFO] socketIO - X9doo1W5HYZZ6IWwAAAA is disconnected
+[2017-11-01 15:30:50.792] [INFO] socketIO - G-8yqkcpiBRFtnOIAAAB is connection
+[2017-11-01 15:30:54.282] [INFO] socketIO - 8KoJQQ4LlJKUETIFAAAC is connection
+[2017-11-01 15:30:59.157] [INFO] socketIO - Scwr0nYedRt7O8KOAAAD is connection
+[2017-11-01 15:31:00.294] [INFO] socketIO - TAyypSC5DphLvk8yAAAE is connection
+[2017-11-01 15:31:02.243] [INFO] socketIO - qLd7L9p59SriposMAAAF is connection
+[2017-11-01 15:31:02.419] [INFO] socketIO - Iy0BJ8vwOJEEXjXjAAAG is connection
+[2017-11-01 15:31:02.595] [INFO] socketIO - btaaxlw9PFrSQB6lAAAH is connection
+[2017-11-01 15:31:02.737] [INFO] socketIO - gquhzg2OnKlcrgj2AAAI is connection
+[2017-11-01 15:31:02.885] [INFO] socketIO - jbx3Lp1u52wBTb7IAAAJ is connection
+[2017-11-01 15:31:03.034] [INFO] socketIO - 52W-XB510ggmnXh8AAAK is connection
+[2017-11-01 15:31:03.169] [INFO] socketIO - MMVSWhxeqf3_YulMAAAL is connection
+[2017-11-01 15:31:15.626] [INFO] socketIO - ShvoCyP076CJ6VnHAAAM is connection
+[2017-11-01 15:32:21.065] [INFO] socketIO - V4n4uQRD-Yxttl09AAAA is connection
+[2017-11-01 15:32:21.078] [INFO] socketIO - InMiza2CL-D_NqWNAAAB is connection
+[2017-11-01 15:32:21.113] [INFO] socketIO - jgYQ36hjgN0hNoB0AAAC is connection
+[2017-11-01 15:32:21.141] [INFO] socketIO - RAB1-DBZzNtbTB42AAAD is connection
+[2017-11-01 15:32:21.147] [INFO] socketIO - KqK0Q6O0VSV1ADgeAAAE is connection
+[2017-11-01 15:32:21.202] [INFO] socketIO - cZqlfFo1ZsDBbk0WAAAF is connection
+[2017-11-01 15:32:21.250] [INFO] socketIO - gliNtaPBBpfySOCbAAAG is connection
+[2017-11-01 15:32:21.277] [INFO] socketIO - fiPVjeftpT3LmoLdAAAH is connection
+[2017-11-01 15:32:21.292] [INFO] socketIO - 7rsnmrGCvhNGc5wBAAAI is connection
+[2017-11-01 15:32:21.387] [INFO] socketIO - B2NEBbEdNZIyR_DIAAAJ is connection
+[2017-11-01 15:32:21.578] [INFO] socketIO - Rt-Hce8vR2UsGdqqAAAK is connection
+[2017-11-01 15:32:21.607] [INFO] socketIO - -H8ZAn0GByybCLiGAAAL is connection
+[2017-11-01 15:32:28.336] [INFO] socketIO - 4q8deqciNolIEi6tAAAA is connection
+[2017-11-01 15:32:28.394] [INFO] socketIO - QmdaH8ldpoNQJxkAAAAB is connection
+[2017-11-01 15:32:28.422] [INFO] socketIO - V9yF58d0PDOzeBOmAAAC is connection
+[2017-11-01 15:32:28.439] [INFO] socketIO - pYy2L7noVSmI_nrnAAAD is connection
+[2017-11-01 15:32:28.445] [INFO] socketIO - EQtIN01NPk3ge7POAAAE is connection
+[2017-11-01 15:32:28.449] [INFO] socketIO - y8GwmG1zxyrTNJqnAAAF is connection
+[2017-11-01 15:32:28.614] [INFO] socketIO - cMrQSJEkZIk5UkRKAAAG is connection
+[2017-11-01 15:32:28.633] [INFO] socketIO - 4u7hiXYt68lHYcs-AAAH is connection
+[2017-11-01 15:32:28.717] [INFO] socketIO - QDk5TV224S74Z8QEAAAI is connection
+[2017-11-01 15:32:28.728] [INFO] socketIO - RzeUuMuXpD8V0ubkAAAJ is connection
+[2017-11-01 15:32:28.840] [INFO] socketIO - _t74c7OV355GZc1yAAAK is connection
+[2017-11-01 15:32:28.855] [INFO] socketIO - x_qsS0Liijkp8BHrAAAL is connection
+[2017-11-01 15:33:12.331] [INFO] socketIO - _F8cEtqB_R71MAMCAAAA is connection
+[2017-11-01 15:33:12.351] [INFO] socketIO - T4SV8RqR03PTfrt_AAAB is connection
+[2017-11-01 15:33:12.360] [INFO] socketIO - bu8DrHWc5eqgKSngAAAC is connection
+[2017-11-01 15:33:12.362] [INFO] socketIO - 2Zuss6imD6tJi2wbAAAD is connection
+[2017-11-01 15:33:12.403] [INFO] socketIO - TEA9baTjYlvj9_KJAAAE is connection
+[2017-11-01 15:33:12.421] [INFO] socketIO - oAKXX21GUrBZQvE7AAAF is connection
+[2017-11-01 15:33:12.423] [INFO] socketIO - UJXJXY3-8Fw9qVgJAAAG is connection
+[2017-11-01 15:33:12.429] [INFO] socketIO - D7unsF7N6F09mMyTAAAH is connection
+[2017-11-01 15:33:12.455] [INFO] socketIO - V_vlM6JM33Pu-Jp_AAAI is connection
+[2017-11-01 15:33:12.591] [INFO] socketIO - e0cIYfbGVqaRd5PpAAAJ is connection
+[2017-11-01 15:33:12.788] [INFO] socketIO - irqk122MS7uv54PAAAAK is connection
+[2017-11-01 15:33:12.820] [INFO] socketIO - 8tmJwB7L0YjgmaYuAAAL is connection
+[2017-11-01 15:33:22.932] [INFO] socketIO - V_vlM6JM33Pu-Jp_AAAI is disconnected
+[2017-11-01 15:33:22.944] [INFO] socketIO - T4SV8RqR03PTfrt_AAAB is disconnected
+[2017-11-01 15:33:22.947] [INFO] socketIO - TEA9baTjYlvj9_KJAAAE is disconnected
+[2017-11-01 15:33:22.949] [INFO] socketIO - D7unsF7N6F09mMyTAAAH is disconnected
+[2017-11-01 15:33:22.950] [INFO] socketIO - UJXJXY3-8Fw9qVgJAAAG is disconnected
+[2017-11-01 15:33:22.951] [INFO] socketIO - 2Zuss6imD6tJi2wbAAAD is disconnected
+[2017-11-01 15:33:22.954] [INFO] socketIO - irqk122MS7uv54PAAAAK is disconnected
+[2017-11-01 15:33:22.956] [INFO] socketIO - oAKXX21GUrBZQvE7AAAF is disconnected
+[2017-11-01 15:33:22.965] [INFO] socketIO - e0cIYfbGVqaRd5PpAAAJ is disconnected
+[2017-11-01 15:33:22.970] [INFO] socketIO - 8tmJwB7L0YjgmaYuAAAL is disconnected
+[2017-11-01 15:33:22.972] [INFO] socketIO - bu8DrHWc5eqgKSngAAAC is disconnected
+[2017-11-01 15:33:22.975] [INFO] socketIO - _F8cEtqB_R71MAMCAAAA is disconnected
+[2017-11-01 15:33:32.531] [INFO] socketIO - CArhW0vcTDlXtWwoAAAM is connection
+[2017-11-01 15:37:13.075] [INFO] socketIO - UOiXLSGQCIV8qmbUAAAA is connection
+[2017-11-01 15:37:14.704] [INFO] socketIO - 061H5O7u-QL1zMz7AAAA is connection
+[2017-11-01 15:37:16.717] [INFO] socketIO - oL4HlcHWH7gUn9i6AAAA is connection
+[2017-11-01 15:37:18.226] [INFO] socketIO - uIsf5NXoECT77zuZAAAA is connection
+[2017-11-01 15:37:20.399] [INFO] socketIO - iSHiMZhuTTmRq-raAAAA is connection
+[2017-11-01 15:37:22.403] [INFO] socketIO - XajpjXiW_owrSovNAAAA is connection
+[2017-11-01 15:37:24.056] [INFO] socketIO - jOVGSjnBBLc7xZUIAAAA is connection
+[2017-11-01 15:37:25.479] [INFO] socketIO - 9MsXzxb3BBbvB-ihAAAA is connection
+[2017-11-01 15:37:26.956] [INFO] socketIO - 8rlRKYNTknZMj6rtAAAA is connection
+[2017-11-01 15:37:28.675] [INFO] socketIO - PpmPRC4eOU7rsY8gAAAA is connection
+[2017-11-01 15:37:30.498] [INFO] socketIO - u7dj8FWn5qQ-cLI2AAAA is connection
+[2017-11-01 15:37:32.136] [INFO] socketIO - KB0GHUEGA3im6bE7AAAA is connection
+[2017-11-01 15:37:35.199] [INFO] socketIO - KI68Su1QOBFE592LAAAA is connection
+[2017-11-01 15:37:37.536] [INFO] socketIO - DLgUG-WY_cB0PG4eAAAA is connection
+[2017-11-01 15:37:39.446] [INFO] socketIO - DRKRctj2N1OmLdDxAAAA is connection
+[2017-11-01 15:37:41.048] [INFO] socketIO - v9TViQgr4-HjvvcUAAAA is connection
+[2017-11-01 15:37:42.914] [INFO] socketIO - rnYcH8SwYyMmt-ndAAAA is connection
+[2017-11-01 15:37:45.054] [INFO] socketIO - wP2sS0o3huyB0oWRAAAA is connection
+[2017-11-01 15:37:46.861] [INFO] socketIO - eZMSzGWnyxfNwDuWAAAA is connection
+[2017-11-01 15:37:49.168] [INFO] socketIO - BwT8o6p5VSXxw0PZAAAA is connection
+[2017-11-01 15:37:51.610] [INFO] socketIO - eub_BT9232cziTPzAAAA is connection
+[2017-11-01 15:37:53.107] [INFO] socketIO - tphOuusE-QDreLkBAAAA is connection
+[2017-11-01 15:37:55.412] [INFO] socketIO - ZQlXaTbUVZBkXDIKAAAA is connection
+[2017-11-01 15:37:57.551] [INFO] socketIO - BA2TN1OE2KK-SEuDAAAA is connection
+[2017-11-01 15:37:59.152] [INFO] socketIO - cUu3Z_VoBo1813yHAAAA is connection
+[2017-11-01 15:38:00.963] [INFO] socketIO - jx-_86F-bhYoPAw0AAAA is connection
+[2017-11-01 15:38:02.666] [INFO] socketIO - 2T0jexOeDYRdsXZeAAAA is connection
+[2017-11-01 15:38:04.296] [INFO] socketIO - z5Opuk50s1ob6fUwAAAA is connection
+[2017-11-01 15:38:06.303] [INFO] socketIO - dJ8oOj6pzBZ6z1-9AAAA is connection
+[2017-11-01 15:38:07.917] [INFO] socketIO - ggRf-ZqWWGI5IaytAAAA is connection
+[2017-11-01 15:38:10.259] [INFO] socketIO - 324XWn4iQkZdcYL5AAAA is connection
+[2017-11-01 15:38:11.687] [INFO] socketIO - CtAiV0r6Qk-ABTDKAAAA is connection
+[2017-11-01 15:38:14.028] [INFO] socketIO - laN8c4EXMiWBYXycAAAA is connection
+[2017-11-01 15:38:16.059] [INFO] socketIO - eg15twksa2sKgr2UAAAA is connection
+[2017-11-01 15:38:18.265] [INFO] socketIO - 5uIUa-jeQggwl02yAAAA is connection
+[2017-11-01 15:38:20.423] [INFO] socketIO - BAOCVBGtTA6UM7dLAAAA is connection
+[2017-11-01 15:38:22.692] [INFO] socketIO - kjotr85dZT8VysdSAAAA is connection
+[2017-11-01 15:38:25.150] [INFO] socketIO - O6uMIAQCcdH5KBEJAAAA is connection
+[2017-11-01 15:38:26.871] [INFO] socketIO - DmWx5HBqNn8LF4v7AAAA is connection
+[2017-11-01 15:38:28.995] [INFO] socketIO - QWxgLa2i17yTa3r5AAAA is connection
+[2017-11-01 15:38:30.799] [INFO] socketIO - cSGQYPwUc7_fquWoAAAA is connection
+[2017-11-01 15:38:32.876] [INFO] socketIO - oQ-Wzug1xUbUHQH9AAAA is connection
+[2017-11-01 15:38:34.373] [INFO] socketIO - 7cBrP_S8BqGZBp7bAAAA is connection
+[2017-11-01 15:38:36.117] [INFO] socketIO - nh8sh_8UpdudIc0pAAAA is connection
+[2017-11-01 15:38:57.271] [INFO] socketIO - 4BIiBpo_2FIxhhadAAAA is connection
+[2017-11-01 15:39:20.291] [INFO] socketIO - L0QH-OFeRSq3_tB3AAAA is connection
+[2017-11-01 15:40:06.878] [INFO] socketIO - 2w9q1hZwtJ_PcquwAAAA is connection
+[2017-11-01 15:40:08.429] [INFO] socketIO - 2w9q1hZwtJ_PcquwAAAA is disconnected
+[2017-11-01 15:40:12.822] [INFO] socketIO - CUbR-zsZua58fSuKAAAB is connection
+[2017-11-01 15:40:46.749] [INFO] socketIO - bRMDDKxl-Eb7t2S-AAAA is connection
+[2017-11-01 15:40:53.970] [INFO] socketIO - bRMDDKxl-Eb7t2S-AAAA is disconnected
+[2017-11-01 15:41:03.285] [INFO] socketIO - 2Br8Y4EgLMmbnlzdAAAB is connection
+[2017-11-01 15:42:53.480] [INFO] socketIO - wdR1G8G2p-n2CPSmAAAA is connection
+[2017-11-01 15:43:10.422] [INFO] socketIO - DmFyBaaGMrHgbSv4AAAA is connection
+[2017-11-01 15:43:12.928] [INFO] socketIO - DmFyBaaGMrHgbSv4AAAA is disconnected
+[2017-11-01 15:43:14.559] [INFO] socketIO - ucsniu7MglP-RJfqAAAB is connection
+[2017-11-01 15:43:30.683] [INFO] socketIO - aMDwCa29OsejRbscAAAA is connection
+[2017-11-01 15:52:42.777] [INFO] socketIO - WfGbMG5gtRq3XwEXAAAB is connection
+[2017-11-01 15:52:44.418] [INFO] socketIO - q92Oy1UTsLXn2pYuAAAC is connection
+[2017-11-01 15:54:11.527] [INFO] socketIO - ZSVqhZLrl87Nz39sAAAA is connection
+[2017-11-01 15:54:11.543] [INFO] socketIO - pynv6coFFf0zelYUAAAB is connection
+[2017-11-01 15:54:12.249] [INFO] socketIO - XBGEpEcIP3swae_RAAAC is connection
+[2017-11-01 15:54:28.814] [INFO] socketIO - n4NvkaNG0fnQ9A23AAAA is connection
+[2017-11-01 15:54:28.845] [INFO] socketIO - NrP_5gVQkE72Eo21AAAB is connection
+[2017-11-01 15:54:29.301] [INFO] socketIO - nUsrrXYdIPA40N63AAAC is connection
+[2017-11-01 15:54:31.828] [INFO] socketIO - NrP_5gVQkE72Eo21AAAB is disconnected
+[2017-11-01 15:54:31.878] [INFO] socketIO - n4NvkaNG0fnQ9A23AAAA is disconnected
+[2017-11-01 15:54:31.879] [INFO] socketIO - nUsrrXYdIPA40N63AAAC is disconnected
+[2017-11-01 15:54:33.189] [INFO] socketIO - GuH8Nad-9PId2a5xAAAD is connection
+[2017-11-01 15:54:34.997] [INFO] socketIO - OnA9BBzOQkcGeDZRAAAA is connection
+[2017-11-01 15:54:54.989] [INFO] socketIO - NXDikqvzEgzYwLgOAAAA is connection
+[2017-11-01 15:54:55.807] [INFO] socketIO - NXDikqvzEgzYwLgOAAAA is disconnected
+[2017-11-01 15:54:57.334] [INFO] socketIO - fv6XSnfGLgfcOmrbAAAB is connection
+[2017-11-01 15:55:29.564] [INFO] socketIO - Yp3BU1xlhpxbvDseAAAC is connection
+[2017-11-01 15:57:23.639] [INFO] socketIO - NXc60BnlNXC64oMAAAAD is connection
+[2017-11-01 15:57:24.842] [INFO] socketIO - UWKiMlOu8Rlb62QmAAAE is connection
+[2017-11-01 16:02:15.066] [INFO] socketIO - _KP_RkaMF6jOpfs5AAAA is connection
+[2017-11-01 16:02:15.093] [INFO] socketIO - DrYfwWzqyraTripjAAAB is connection
+[2017-11-01 16:02:15.450] [INFO] socketIO - rDmJ78c6L7y_zqlJAAAC is connection
+[2017-11-01 16:02:15.462] [INFO] socketIO - 6kX8tCj-Xcjr6n8HAAAD is connection
+[2017-11-01 16:17:30.781] [INFO] socketIO - PJVR5tGMgGrkwDIMAAAA is connection
+[2017-11-01 16:17:30.801] [INFO] socketIO - OOv5j7Gd0FYT8nClAAAB is connection
+[2017-11-01 16:17:30.806] [INFO] socketIO - CGTCOYZp3SQsdbq6AAAC is connection
+[2017-11-01 16:17:31.248] [INFO] socketIO - seEXJoBgDSq2lYi6AAAD is connection
+[2017-11-01 16:17:52.779] [INFO] socketIO - 85iWJ7sE7EKl6r0BAAAA is connection
+[2017-11-01 16:17:53.286] [INFO] socketIO - ZNLb1PXq9VAlXoAPAAAB is connection
+[2017-11-01 16:17:53.293] [INFO] socketIO - KmX-kDVUuSJc0HRzAAAC is connection
+[2017-11-01 16:17:53.296] [INFO] socketIO - 6JXlveBoFCXko1M1AAAD is connection
+[2017-11-01 18:05:47.272] [INFO] socketIO - 8zXunvKA1vWAbWHSAAAA is connection
+[2017-11-01 18:05:47.286] [INFO] socketIO - U0K1URxUTsDJpvgFAAAB is connection
+[2017-11-01 18:05:47.290] [INFO] socketIO - junqX3Gf5zEqHB44AAAC is connection
+[2017-11-01 18:05:47.296] [INFO] socketIO - 2jkBRaDpuOo8YXdRAAAD is connection
+[2017-11-01 18:18:22.631] [INFO] socketIO - hVSrtNSi8ml_y7tdAAAE is connection
+[2017-11-01 18:18:23.454] [INFO] socketIO - rEg4pBPHrz4KCabNAAAA is connection
+[2017-11-01 18:18:23.467] [INFO] socketIO - R8bbqITverpiv2x2AAAB is connection
+[2017-11-01 18:18:24.277] [INFO] socketIO - a7GvNI2WmiP6Gn4DAAAC is connection
+[2017-11-01 18:18:24.281] [INFO] socketIO - 9p9ZfMS2lH628kwrAAAD is connection
+[2017-11-01 18:18:24.508] [INFO] socketIO - qM94k7i20pWiDOo6AAAE is connection
+[2017-11-01 18:18:38.529] [INFO] socketIO - mLjRiKImDHlfCeZzAAAA is connection
+[2017-11-01 18:18:38.538] [INFO] socketIO - jcTkJUvLT5FUH8Y0AAAB is connection
+[2017-11-01 18:18:38.838] [INFO] socketIO - BIuzt7SxQaqWm7IHAAAC is connection
+[2017-11-01 18:18:39.248] [INFO] socketIO - qIQ7gd9QG2rF7cseAAAD is connection
+[2017-11-01 18:18:39.254] [INFO] socketIO - -91DtmJtoPGZ-w2PAAAE is connection
+[2017-11-01 18:18:40.797] [INFO] socketIO - BIuzt7SxQaqWm7IHAAAC is disconnected
+[2017-11-01 18:18:43.632] [INFO] socketIO - stlqeya5Sg3oSIyRAAAF is connection
+[2017-11-01 18:20:58.524] [INFO] socketIO - WbI898mWn3wT0HtrAAAA is connection
+[2017-11-01 18:20:58.534] [INFO] socketIO - Wob10MVJgmP8MoPQAAAB is connection
+[2017-11-01 18:20:58.542] [INFO] socketIO - KEc89sXNFSW6GVGIAAAC is connection
+[2017-11-01 18:20:58.723] [INFO] socketIO - GiqSyJRLYHNIv6o_AAAD is connection
+[2017-11-01 18:20:59.362] [INFO] socketIO - 68MmiW3tFOQyHLcqAAAE is connection
+[2017-11-01 18:21:02.046] [INFO] socketIO - GiqSyJRLYHNIv6o_AAAD is disconnected
+[2017-11-01 18:21:03.772] [INFO] socketIO - 3D6rMZB4OvmB-lBYAAAF is connection
+[2017-11-01 18:21:20.585] [INFO] socketIO - n8vj1VpoGkjbljlJAAAA is connection
+[2017-11-01 18:21:20.929] [INFO] socketIO - zBcm3UOeYozOjnXjAAAB is connection
+[2017-11-01 18:21:21.249] [INFO] socketIO - 9q1GPR_8kuyKR1F4AAAC is connection
+[2017-11-01 18:21:21.253] [INFO] socketIO - -bPd53UyepeEGjw8AAAD is connection
+[2017-11-01 18:21:21.293] [INFO] socketIO - nEQSXfi4aX4-25i2AAAE is connection
+[2017-11-01 18:21:22.578] [INFO] socketIO - GxQAsNF-DfunncMyAAAF is connection
+[2017-11-01 18:21:24.716] [INFO] socketIO - GxQAsNF-DfunncMyAAAF is disconnected
+[2017-11-01 18:21:24.727] [INFO] socketIO - zBcm3UOeYozOjnXjAAAB is disconnected
+[2017-11-01 18:21:26.067] [INFO] socketIO - kfWnZQYlkF6THmbNAAAG is connection
+[2017-11-01 18:22:34.581] [INFO] socketIO - OPBTeV-s8GTnrTyNAAAA is connection
+[2017-11-01 18:22:34.591] [INFO] socketIO - xt_-yX5EJyQIRLmrAAAB is connection
+[2017-11-01 18:22:35.070] [INFO] socketIO - mqxmO3XhKFxEFejVAAAC is connection
+[2017-11-01 18:22:35.247] [INFO] socketIO - J-oZqH3VooEGZ_I1AAAD is connection
+[2017-11-01 18:22:35.253] [INFO] socketIO - pNLPZjLLVv6FMJ7nAAAE is connection
+[2017-11-01 18:22:43.529] [INFO] socketIO - EwNTZmBnr491IO_CAAAA is connection
+[2017-11-01 18:22:43.539] [INFO] socketIO - DfteJBBYhe9Om0bpAAAB is connection
+[2017-11-01 18:22:43.820] [INFO] socketIO - ZEpdNOaxfGjlJva8AAAC is connection
+[2017-11-01 18:22:44.273] [INFO] socketIO - fViHmeExiW3xxMsrAAAD is connection
+[2017-11-01 18:22:44.278] [INFO] socketIO - BEPRQTyGvzLWVpsYAAAE is connection
+[2017-11-01 18:23:00.578] [INFO] socketIO - TbTIs0YSLkRdNXo-AAAA is connection
+[2017-11-01 18:23:00.591] [INFO] socketIO - kJLx0K85PlnpMAbWAAAB is connection
+[2017-11-01 18:23:00.941] [INFO] socketIO - NkiPLLcaZn2WoNswAAAC is connection
+[2017-11-01 18:23:01.269] [INFO] socketIO - 5z02OCVSLKBI7L77AAAD is connection
+[2017-11-01 18:23:01.275] [INFO] socketIO - 9_HwWo5FboDZa4mxAAAE is connection
+[2017-11-01 18:25:02.583] [INFO] socketIO - BIiv_rtZUWfUFeANAAAA is connection
+[2017-11-01 18:25:02.596] [INFO] socketIO - QVXuxCbX4ot-5ZAIAAAB is connection
+[2017-11-01 18:25:02.601] [INFO] socketIO - EP_tmDA0IpmfQ-VkAAAC is connection
+[2017-11-01 18:25:03.302] [INFO] socketIO - 68GA0MprLWjU-BtVAAAD is connection
+[2017-11-01 18:25:03.307] [INFO] socketIO - Alip3Zoa2_eGZUASAAAE is connection
+[2017-11-01 18:26:37.524] [INFO] socketIO - VwSiJGko1kf_-IsZAAAA is connection
+[2017-11-01 18:26:37.532] [INFO] socketIO - UxKLqV7msnaoi6j3AAAB is connection
+[2017-11-01 18:26:37.544] [INFO] socketIO - oA5yIhAgVFf-ugwfAAAC is connection
+[2017-11-01 18:26:38.247] [INFO] socketIO - mmLVMHHHoUWd4BWzAAAD is connection
+[2017-11-01 18:26:38.252] [INFO] socketIO - 06V8Sc_aTZAKQ0W2AAAE is connection
+[2017-11-01 18:27:46.516] [INFO] socketIO - J7e9PEmuKq4W4dLPAAAF is connection
+[2017-11-01 18:27:47.219] [INFO] socketIO - 8rLixpPqsoof-3CUAAAG is connection
+[2017-11-01 18:27:47.912] [INFO] socketIO - LKfC9d8MCt-NnIdtAAAH is connection
+[2017-11-01 18:27:48.739] [INFO] socketIO - qhn0M9vL9R1Y4YJ7AAAI is connection
